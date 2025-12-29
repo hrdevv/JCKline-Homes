@@ -8,7 +8,7 @@ export const APARTMENTS: Apartment[] = [
     location: 'Wuse, Abuja, Nigeria',
     description: 'A masterpiece of modern design featuring Italian marble floors, floor-to-ceiling windows, and a dedicated workspace.',
     priceRange: '₦80,000 – ₦100,000 per night',
-    imageUrl: 'https://images.unsplash.com/photo-1618221195710-dd6b41faaea6?auto=format&fit=crop&q=80&w=1200'
+    imageUrl: 'https://images.unsplash.com/photo-1566665797739-1674de7a421a?auto=format&fit=crop&q=80&w=1200'
   },
   {
     id: '2',
@@ -16,7 +16,7 @@ export const APARTMENTS: Apartment[] = [
     location: 'Maitama, Abuja, Nigeria',
     description: 'Chic urban living with high-thread-count linens, ambient smart lighting, and an integrated kitchenette.',
     priceRange: '₦50,000 – ₦70,000 per night',
-    imageUrl: 'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?auto=format&fit=crop&q=80&w=1200'
+    imageUrl: 'https://images.unsplash.com/photo-1590490359683-658d3d23f972?auto=format&fit=crop&q=80&w=1200'
   },
   {
     id: '3',
@@ -24,7 +24,7 @@ export const APARTMENTS: Apartment[] = [
     location: 'Garki, Abuja, Nigeria',
     description: 'Spacious family-oriented layout with a private balcony, gourmet kitchen, and 24/7 concierge access.',
     priceRange: '₦120,000 – ₦150,000 per night',
-    imageUrl: 'https://images.unsplash.com/photo-1590490360182-c33d57733427?auto=format&fit=crop&q=80&w=1200'
+    imageUrl: 'https://images.unsplash.com/photo-1582719478250-c89cae4dc85b?auto=format&fit=crop&q=80&w=1200'
   }
 ];
 

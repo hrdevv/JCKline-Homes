@@ -1,5 +1,6 @@
 
 import React from 'react';
+import { Link } from 'react-router-dom';
 import { CONTACT_INFO } from '../constants';
 
 const Footer: React.FC = () => {
@@ -37,6 +38,14 @@ const Footer: React.FC = () => {
             <p className="text-gray-400 text-sm leading-relaxed">
               Serving our clients with excellence in the heart of Abuja. Our local presence ensures immediate attention to your needs.
             </p>
+            <div className="mt-4">
+              <Link to="/tech-specs" className="text-[#c9a45c] text-[10px] uppercase tracking-widest hover:text-white transition-colors flex items-center gap-2">
+                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10 20l4-16m4 4l4 4-4 4M6 16l-4-4 4-4" />
+                </svg>
+                Developer Tech Specs
+              </Link>
+            </div>
           </div>
         </div>
         <div className="mt-12 pt-8 border-t border-white/5 flex flex-col md:flex-row justify-between items-center text-gray-500 text-xs">

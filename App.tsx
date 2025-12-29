@@ -8,6 +8,7 @@ import About from './pages/About';
 import Apartments from './pages/Apartments';
 import Services from './pages/Services';
 import Inquiry from './pages/Inquiry';
+import TechSpecs from './pages/TechSpecs';
 
 const PageManager = () => {
   const { pathname } = useLocation();
@@ -23,6 +24,7 @@ const PageManager = () => {
       '/apartments': 'Apartment Listings | Short Stay Abuja',
       '/services': 'Our Services | Professional Living Solutions',
       '/inquiry': 'Make Inquiry | Check Availability',
+      '/tech-specs': 'Technical Specifications | Phase 2 Blueprint',
     };
     
     document.title = `${baseTitle} | ${titles[pathname] || 'Luxury Serviced Living'}`;
@@ -44,6 +46,7 @@ function App() {
             <Route path="/apartments" element={<Apartments />} />
             <Route path="/services" element={<Services />} />
             <Route path="/inquiry" element={<Inquiry />} />
+            <Route path="/tech-specs" element={<TechSpecs />} />
           </Routes>
         </main>
         <Footer />
